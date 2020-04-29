@@ -1,3 +1,6 @@
+# oodles-ques-2
+This app renders job search website's home page
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
