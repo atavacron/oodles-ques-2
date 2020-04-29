@@ -6,12 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +28,39 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.margin-right{
+  margin-right: 10px;
+}
+
+/* a#tab-tab-find-a-job:visited{
+  background-color: purple;
+    border: none;
+    color: white;
+}
+
+a#tab-tab-find-a-candidate:visited{
+  background-color: purple;
+    border: none;
+    color: white;
+} */
+
+.tab-content{
+  background-color: purple;
+}
+
+
+/* Active tab */
+.myClass > a.active,
+{
+  background-color: purple;
+  border: none;
+  color: white;
+}
+
+.myClass > a{
+  color:#495057;
+}
+
+.myClass > a:hover{
+  color:#495057
 }
